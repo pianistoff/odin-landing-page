@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 175px;
+}
+
+.logo {
+    max-width: 134px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
