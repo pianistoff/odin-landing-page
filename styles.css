@@ -62,7 +62,7 @@ body {
     margin-bottom: 10px;
 }
 
-.btn {
+.hero-btn {
     background-color: #3882F6;
     color: white;
     font-size: 18px;
@@ -70,6 +70,7 @@ body {
     padding: 5px 0;
     width: 120px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .hero-img {
@@ -114,7 +115,7 @@ body {
 
 .quote-section {
     background-color: #E5E7EB;
-    padding: 125px 250px;
+    padding: 125px 250px 100px 250px;
 }
 
 .quote {
@@ -128,4 +129,32 @@ body {
     text-align: end;
     font-weight: 700;
     font-size: 26px;
+}
+
+.call-to-action-section {
+    padding: 100px 175px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 35px 100px;
+    color: white;
+    border-radius: 8px;
+}
+
+.call-to-action-subtext {
+    opacity: .8;
+}
+
+.call-to-action-btn {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    cursor: pointer;
 }
